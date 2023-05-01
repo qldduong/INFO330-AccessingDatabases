@@ -13,12 +13,7 @@ types = ["bug","dark","dragon","electric","fairy","fight",
     "poison","psychic","rock","steel","water"]
 
 
-
-# UPDATE THIS FILE PATH LATER
-# UPDATE THIS FILE PATH LATER
-# UPDATE THIS FILE PATH LATER 
-# RAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHH
-connection = sqlite3.connect("C:/Users/renti/Documents/INFO330/INFO330-AccessingDatabases/pokemon.sqlite")
+connection = sqlite3.connect("../pokemon.sqlite")
 cursor = connection.cursor()
 
 
