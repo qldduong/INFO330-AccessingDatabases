@@ -102,7 +102,7 @@ for i, arg in enumerate(sys.argv):
     strong = []
     weak = []
 
-    # Assigns types to the weak / strong lists (val > 1 --> strong || val < 1 --> weak)
+    # Assigns types to the weak / strong lists (val < 1 --> strong || val > 1 --> weak)
     type_counter = 0
     for ef_tup in effects_list:
         for ef_num in ef_tup:
