@@ -106,9 +106,9 @@ for i, arg in enumerate(sys.argv):
     type_counter = 0
     for ef_tup in effects_list:
         for ef_num in ef_tup:
-            if float(ef_num) > 1.0:
+            if float(ef_num) < 1.0:
                 strong.append(types[type_counter])
-            elif float(ef_num) < 1.0:
+            elif float(ef_num) > 1.0:
                 weak.append(types[type_counter])
             type_counter += 1
     print()
